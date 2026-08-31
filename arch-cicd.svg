@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none">
+  <rect width="400" height="200" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- Pipeline stages -->
+  <g transform="translate(16, 28)">
+    <rect x="0" y="0" width="56" height="28" rx="6" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+    <text x="28" y="18" text-anchor="middle" fill="#dc2626" font-size="8" font-family="monospace" font-weight="bold">语法检查</text>
+    <path d="M56,14 L70,14" stroke="#cbd5e1" stroke-width="1" marker-end="url(#arr4)"/>
+  </g>
+  <g transform="translate(86, 28)">
+    <rect x="0" y="0" width="56" height="28" rx="6" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
+    <text x="28" y="18" text-anchor="middle" fill="#d97706" font-size="8" font-family="monospace" font-weight="bold">单元测试</text>
+    <path d="M56,14 L70,14" stroke="#cbd5e1" stroke-width="1" marker-end="url(#arr4)"/>
+  </g>
+  <g transform="translate(156, 28)">
+    <rect x="0" y="0" width="56" height="28" rx="6" fill="#fefce8" stroke="#fef08a" stroke-width="1"/>
+    <text x="28" y="18" text-anchor="middle" fill="#ca8a04" font-size="8" font-family="monospace" font-weight="bold">内容校验</text>
+    <path d="M56,14 L70,14" stroke="#cbd5e1" stroke-width="1" marker-end="url(#arr4)"/>
+  </g>
+  <g transform="translate(226, 28)">
+    <rect x="0" y="0" width="56" height="28" rx="6" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="28" y="18" text-anchor="middle" fill="#16a34a" font-size="8" font-family="monospace" font-weight="bold">冒烟测试</text>
+    <path d="M56,14 L70,14" stroke="#cbd5e1" stroke-width="1" marker-end="url(#arr4)"/>
+  </g>
+  <g transform="translate(296, 28)">
+    <rect x="0" y="0" width="56" height="28" rx="6" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+    <text x="28" y="18" text-anchor="middle" fill="#059669" font-size="8" font-family="monospace" font-weight="bold">全量评测</text>
+  </g>
+  <defs><marker id="arr4" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#cbd5e1"/></marker></defs>
+  <!-- Deployment -->
+  <rect x="16" y="74" width="176" height="44" rx="8" fill="#fff" stroke="#0ea5e9" stroke-width="1.5"/>
+  <rect x="16" y="74" width="176" height="20" rx="8" fill="#f0f9ff"/>
+  <text x="104" y="88" text-anchor="middle" fill="#0284c7" font-size="9" font-family="monospace" font-weight="bold">systemd + Nginx</text>
+  <text x="104" y="108" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="monospace">云端生产部署</text>
+  <rect x="208" y="74" width="176" height="44" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="208" y="74" width="176" height="20" rx="8" fill="#f8fafc"/>
+  <text x="296" y="88" text-anchor="middle" fill="#64748b" font-size="9" font-family="monospace" font-weight="bold">rsync 一键同步</text>
+  <text x="296" y="108" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="monospace">deploy/sync.sh</text>
+  <!-- Wizard + Docker -->
+  <rect x="16" y="134" width="176" height="28" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="104" y="152" text-anchor="middle" fill="#64748b" font-size="8" font-family="monospace">🧙 首访四步向导 · env_check.sh</text>
+  <rect x="208" y="134" width="176" height="28" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="296" y="152" text-anchor="middle" fill="#64748b" font-size="8" font-family="monospace">🐳 Docker 备用部署</text>
+  <!-- Bottom -->
+  <text x="200" y="184" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="monospace">默认 SQLite 零配置 · GitHub Actions 五级流水线</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none">
+  <rect width="400" height="200" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- Three columns L1/L2/L3 -->
+  <!-- L1 -->
+  <rect x="16" y="28" width="110" height="70" rx="8" fill="#fff" stroke="#f59e0b" stroke-width="1.5"/>
+  <rect x="16" y="28" width="110" height="22" rx="8" fill="#fffbeb"/>
+  <text x="71" y="42" text-anchor="middle" fill="#d97706" font-size="10" font-family="monospace" font-weight="bold">L1 规则引擎</text>
+  <text x="71" y="58" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="monospace">一票否决 · 高分跳过</text>
+  <text x="71" y="72" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="monospace">权重 30%</text>
+  <rect x="16" y="82" width="110" height="16" rx="4" fill="#fef3c7"/>
+  <text x="71" y="93" text-anchor="middle" fill="#92400e" font-size="7" font-family="monospace">结构 · 事实 · 安全</text>
+  <!-- L2 -->
+  <rect x="144" y="28" width="110" height="70" rx="8" fill="#fff" stroke="#3b82f6" stroke-width="1.5"/>
+  <rect x="144" y="28" width="110" height="22" rx="8" fill="#eff6ff"/>
+  <text x="199" y="42" text-anchor="middle" fill="#2563eb" font-size="10" font-family="monospace" font-weight="bold">L2 语义分析</text>
+  <text x="199" y="58" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="monospace">Embedding · 关键词</text>
+  <text x="199" y="72" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="monospace">权重 10%</text>
+  <rect x="144" y="82" width="110" height="16" rx="4" fill="#dbeafe"/>
+  <text x="199" y="93" text-anchor="middle" fill="#1e40af" font-size="7" font-family="monospace">语义相似度</text>
+  <!-- L3 -->
+  <rect x="272" y="28" width="112" height="70" rx="8" fill="#fff" stroke="#10b981" stroke-width="1.5"/>
+  <rect x="272" y="28" width="112" height="22" rx="8" fill="#ecfdf5"/>
+  <text x="328" y="42" text-anchor="middle" fill="#059669" font-size="10" font-family="monospace" font-weight="bold">L3 Judge 投票</text>
+  <text x="328" y="58" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="monospace">跨模型族 · 方差量化</text>
+  <text x="328" y="72" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="monospace">权重 60%</text>
+  <rect x="272" y="82" width="112" height="16" rx="4" fill="#d1fae5"/>
+  <text x="328" y="93" text-anchor="middle" fill="#065f46" font-size="7" font-family="monospace">DeepSeek · GLM · Doubao</text>
+  <!-- Arrows -->
+  <path d="M126,63 L142,63" stroke="#94a3b8" stroke-width="1" marker-end="url(#arr2)"/>
+  <path d="M254,63 L270,63" stroke="#94a3b8" stroke-width="1" marker-end="url(#arr2)"/>
+  <defs><marker id="arr2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#94a3b8"/></marker></defs>
+  <!-- Bottom: dimension pills -->
+  <text x="200" y="122" text-anchor="middle" fill="#64748b" font-size="10" font-family="monospace">10 维度评分体系</text>
+  <g transform="translate(16, 136)">
+    <rect x="0" y="0" width="56" height="18" rx="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.5"/>
+    <text x="28" y="13" text-anchor="middle" fill="#64748b" font-size="8" font-family="monospace">正确性</text>
+  </g>
+  <g transform="translate(78, 136)">
+    <rect x="0" y="0" width="56" height="18" rx="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.5"/>
+    <text x="28" y="13" text-anchor="middle" fill="#64748b" font-size="8" font-family="monospace">边界合规</text>
+  </g>
+  <g transform="translate(140, 136)">
+    <rect x="0" y="0" width="56" height="18" rx="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.5"/>
+    <text x="28" y="13" text-anchor="middle" fill="#64748b" font-size="8" font-family="monospace">过度帮助</text>
+  </g>
+  <g transform="translate(202, 136)">
+    <rect x="0" y="0" width="56" height="18" rx="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.5"/>
+    <text x="28" y="13" text-anchor="middle" fill="#64748b" font-size="8" font-family="monospace">安全性</text>
+  </g>
+  <g transform="translate(264, 136)">
+    <rect x="0" y="0" width="56" height="18" rx="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.5"/>
+    <text x="28" y="13" text-anchor="middle" fill="#64748b" font-size="8" font-family="monospace">引导力</text>
+  </g>
+  <g transform="translate(326, 136)">
+    <rect x="0" y="0" width="56" height="18" rx="5" fill="#e2e8f0"/>
+    <text x="28" y="13" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="monospace">+5 维度</text>
+  </g>
+  <text x="200" y="172" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="monospace">95% CI · CV 置信度校准 · 人工复核标记</text>
+</svg>
